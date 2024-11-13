@@ -1,3 +1,6 @@
 [submodule "assets/profile"]
 	path = assets/profile
 	url = git@github.com:EsotericFoundation/.github
+[submodule "license"]
+	path = license
+	url = git@github.com:EsotericFoundation/license.git
