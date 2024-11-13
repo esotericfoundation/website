@@ -1,2 +1,3 @@
-# EsotericFoundation.github.io
-The website of our organisation.
+# EsotericFoundation Website
+
+> The website of our organisation.
