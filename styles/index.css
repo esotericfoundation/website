@@ -39,10 +39,7 @@ div.header {
 }
 
 .typewriter {
-    display: inline-block; /* Keeps the blinking cursor inside the text */
-    overflow: hidden;
-    white-space: nowrap;
+    display: inline-block;
     border-right: 3px solid white;
     animation: blink 0.7s steps(1) infinite;
-    text-align: center;
 }
