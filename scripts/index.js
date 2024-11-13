@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (index < text.length) {
             description.innerHTML += text.charAt(index);
             index++;
-            setTimeout(typeWriter, 50); // Adjust typing speed here (milliseconds)
+            setTimeout(typeWriter, 60); // Adjust typing speed here (milliseconds)
         } else {
             description.classList.remove("typewriter");
         }
