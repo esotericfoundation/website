@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             setTimeout(typeWriter, 60); // Adjust typing speed here (milliseconds)
         } else {
             description.classList.remove("typewriter");
+            description.classList.add("done-typewriter");
         }
     }
 

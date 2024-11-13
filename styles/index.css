@@ -43,3 +43,8 @@ div.header {
     border-right: 3px solid white;
     animation: blink 1.4s steps(1) infinite;
 }
+
+.done-typewriter {
+    display: inline-block;
+    border-right: 3px solid black;
+}
