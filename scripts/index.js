@@ -1,20 +1,16 @@
 document.addEventListener("DOMContentLoaded", function () {
     const text = "We are a small team of developers dedicated to creating high-quality software.";
-    const description = document.getElementById("description");
+    const textElement = document.getElementById("text");
     let index = 0;
 
     function typeWriter() {
         if (index < text.length) {
-            description.innerHTML += text.charAt(index);
+            textElement.innerHTML += text.charAt(index);
             index++;
-            setTimeout(typeWriter, 60); // Adjust typing speed here (milliseconds)
-        } else {
-            description.classList.remove("typewriter");
-            description.classList.add("done-typewriter");
+            setTimeout(typeWriter, 50); // Adjust typing speed here (milliseconds)
         }
     }
 
-    description.innerHTML = ""; // Clear initial text
-    description.classList.add("typewriter");
+    textElement.innerHTML = ""; // Clear initial text
     typeWriter();
 });

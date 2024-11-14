@@ -31,20 +31,23 @@ div.header {
 
 @keyframes blink {
     0%, 100% {
-        border-right-color: white;
+        opacity: 1;
     }
     50% {
-        border-right-color: transparent;
+        opacity: 0;
     }
 }
 
 .typewriter {
     display: inline-block;
-    border-right: 3px solid white;
-    animation: blink 1.4s steps(1) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
 }
 
-.done-typewriter {
-    display: inline-block;
-    border-right: 3px solid black;
+.cursor {
+    display: inline;
+    animation: blink 0.7s steps(1) infinite;
+    color: white;
+    font-weight: bold;
 }
