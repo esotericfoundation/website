@@ -7,6 +7,7 @@ body {
 }
 
 p,
+a,
 h1,
 h2,
 h3,
@@ -24,6 +25,9 @@ h6 {
 div.header {
   padding-top: 8px;
   padding-bottom: 8px;
+
+  align-items: center;
+  display: flex;
 
   background-color: #101010;
 }
@@ -55,4 +59,14 @@ div.header {
   animation: blink 0.7s steps(1) infinite;
   color: white;
   font-weight: bold;
+}
+
+a.license-link {
+  color: white;
+  text-decoration: none;
+
+  font-size: 30px;
+
+  margin-left: auto;
+  margin-right: 20px;
 }
