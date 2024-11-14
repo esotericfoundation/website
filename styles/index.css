@@ -39,9 +39,7 @@ div.header {
 }
 
 .typewriter {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
+    display: inline; /* Allows the text to wrap */
     text-align: center;
 }
 
