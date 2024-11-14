@@ -39,7 +39,7 @@ div.header {
 }
 
 .typewriter {
-    display: inline; /* Allows the text to wrap */
+    display: inline;
     text-align: center;
 }
 
