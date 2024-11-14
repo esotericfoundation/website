@@ -1,51 +1,58 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .background {
-    background-color: black;
+  background-color: black;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 div.header {
-    padding-top: 8px;
-    padding-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 
-    background-color: #101010;
+  background-color: #101010;
 }
 
 .logo {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 
-    margin-left: 8px;
+  margin-left: 8px;
 }
 
 @keyframes blink {
-    0%, 100% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .typewriter {
-    display: inline;
-    text-align: center;
+  display: inline;
+  text-align: center;
 }
 
 .cursor {
-    display: inline;
-    animation: blink 0.7s steps(1) infinite;
-    color: white;
-    font-weight: bold;
+  display: inline;
+  animation: blink 0.7s steps(1) infinite;
+  color: white;
+  font-weight: bold;
 }
