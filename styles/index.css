@@ -39,11 +39,15 @@ div.header {
   margin-left: 8px;
 }
 
-a.discord-link {
+div.link-container {
   margin-bottom: auto;
 }
 
-.discord-logo {
+.link {
+  text-decoration: none;
+}
+
+.link-logo {
   width: 30px;
   height: 30px;
 
