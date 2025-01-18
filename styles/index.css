@@ -41,6 +41,8 @@ div.header {
 
 div.link-container {
   margin-bottom: auto;
+
+  margin-right: 4px;
 }
 
 .link {
@@ -50,8 +52,6 @@ div.link-container {
 .link-logo {
   width: 30px;
   height: 30px;
-
-  margin-right: 8px;
 }
 
 @keyframes blink {
