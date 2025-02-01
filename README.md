@@ -1,5 +1,7 @@
 # Esoteric Foundation Website
 
+[![Project Status: Maintained](./assets/images/badges/status.svg)](./)
+
 > The website of our organisation.
 
 ## License
